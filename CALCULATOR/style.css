@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    
 }
 
 body{
@@ -80,3 +86,8 @@ background-color: #1b1b1b;
     color: #fff;
     background-color: #108616;
 }
+
+.equals:hover{
+    background-color: #0a4d0e;
+}
+
