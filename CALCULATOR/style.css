@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #202020, #000000);
+    background: linear-gradient(45deg, #0e0d0d, #000000);
 }
 
 .container{
@@ -53,6 +53,7 @@ button{
     background-color: #000000;
     color: #fff;
     box-shadow: #202020;
+    background-color: #141414;
 }
 
 button:hover{
@@ -66,3 +67,16 @@ background-color: #1b1b1b;
     text-align: center;
 }
 
+.operator{
+    color: #12eb1c;
+    background-color: #242323;
+}
+
+.ac{
+    color: #c94040;
+}
+
+.equals{
+    color: #fff;
+    background-color: #108616;
+}
