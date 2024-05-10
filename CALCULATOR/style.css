@@ -17,6 +17,7 @@ body{
     border: 2px solid #fff;
     border-radius: 16px;
     padding: 40px;
+    max-width: 30rem;
 }
 
 input{
@@ -30,6 +31,11 @@ input{
 
 input::placeholder{
     color: #fff;
+    border: none;
+}
+
+input:hover{
+    cursor:default;
 }
 
 button{
@@ -39,9 +45,21 @@ button{
     margin: 10px;
     width: 80px;
     height: 80px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    box-shadow: #202020;
 }
 
-.operators{
+button:hover{
+background-color: #1b1b1b;
+}
+
+.container div{
     width: 100%;
     display: flex;
     justify-content: center;
