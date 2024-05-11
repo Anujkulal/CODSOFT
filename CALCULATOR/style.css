@@ -33,6 +33,7 @@ input{
     border: none;
     font-size: 40px;
     text-align: right;
+    color: #fff;
 }
 
 input::placeholder{
@@ -58,7 +59,7 @@ button{
     cursor: pointer;
     background-color: #000000;
     color: #fff;
-    box-shadow: #202020;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     background-color: #141414;
 }
 
@@ -82,12 +83,12 @@ background-color: #1b1b1b;
     color: #c94040;
 }
 
-.equals{
+.equalBtn{
     color: #fff;
     background-color: #108616;
 }
 
-.equals:hover{
+.equalBtn:hover{
     background-color: #0a4d0e;
 }
 
